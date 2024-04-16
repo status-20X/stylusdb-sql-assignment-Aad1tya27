@@ -10,8 +10,11 @@ function parseQuery(query) {
             table: table.trim()
         };
     } else {
+        
         throw new Error('Invalid query format');
     }
 }
+
+
 
 module.exports = parseQuery;
