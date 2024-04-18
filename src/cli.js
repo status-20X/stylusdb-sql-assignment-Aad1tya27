@@ -2,7 +2,7 @@
 
 
 const readline = require('readline');
-const {executeSELECTQuery,executeDELETEQuery,executeINSERTQuery} = require('./index');
+const {executeSELECTQuery,executeDELETEQuery,executeINSERTQuery} = require('.');
 
 const rl = readline.createInterface({
     input: process.stdin,
